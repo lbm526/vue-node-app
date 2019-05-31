@@ -25,5 +25,4 @@ node server.js/nodemon server.js
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 喜欢的话请Star一个，谢谢~
