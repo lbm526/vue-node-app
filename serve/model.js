@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // mongoose.connect('mongodb://localhost/helloWorld');
 if(process.env.NODE_ENV == "production"){
-    mongoose.connect('mongodb+srv://lbm_vue:lbm123456@cluster0-eipdm.mongodb.net/test');
+    mongoose.connect('mongodb://localhost/helloWorld');//此处改为mongodb Atlas上的字段码
 }else{
     mongoose.connect('mongodb://localhost/helloWorld');
 }
