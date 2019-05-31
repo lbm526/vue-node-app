@@ -1,25 +1,25 @@
-# hello-world
+# vue-node-app
 
-## Project setup
+## 项目配置
 ```
-yarn install
+npm install
 ```
-
-### Compiles and hot-reloads for development
+注：如果npm install之后项目启动失败，可能是模块没装全，您可以查看package.json文件所需的模块进行安装
+### 启动项目
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+npm run serve
 ```
 
-### Run your tests
+### 打包项目
 ```
-yarn run test
+npm run build
 ```
 
+### 启动本地服务器（请使用mongodb数据库）
+```
+node server.js/nodemon server.js
+```
+注：如果您想使用nodemon，请cnpm install nodemon -g下载后使用，较之node，好处是修改服务端代码不需要重新node一遍
 ### Lints and fixes files
 ```
 yarn run lint
