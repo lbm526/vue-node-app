@@ -90,6 +90,7 @@
                         if (res.data !== "") {
                             $("#modal").modal("show");
                             _this.error_text = res.data.msg;
+                            
 
                         }
                     });

@@ -96,7 +96,9 @@ router.post('/api/users/register', function (req, res) {
         })
         .then(user => {
             if (user) {
-                res.json('用户已存在!');
+                res.json( {
+                    msg: '用户已存在!'
+                });
                 return false;
             } else {
                 let userInfo = {
